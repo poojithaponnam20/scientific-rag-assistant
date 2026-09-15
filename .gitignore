@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+#vscode
+.vscode/
+
+# macOS
+.DS_Store
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model/cache files
+.cache/
+huggingface/
+
+# Streamlit
+.streamlit/
+
+# Scientific PDFs
+data/*.pdf
