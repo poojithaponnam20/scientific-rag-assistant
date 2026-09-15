@@ -49,7 +49,7 @@ Grounded Answer + Source Pages
 
 ## Retrieval Evaluation
 
-Retrieval was evaluated using a 10-question benchmark created from the source documents.
+Retrieval was evaluated on a 10-question benchmark based on the original RAG paper.
 
 | Method                                   | Hit@1 | Hit@3 | Hit@5 |
 | ---------------------------------------- | ----: | ----: | ----: |
@@ -110,7 +110,7 @@ scientific-rag-assistant/
 ├── README.md
 │
 └── data/
-    ├── .gitkeep
+    ├── .gitkeep # Add your own PDFs here
 ```
 
 `rag_backend.py` contains the cleaned production pipeline, while `experiments.py` contains the experiments and evaluation work used during development.
@@ -118,6 +118,8 @@ scientific-rag-assistant/
 ## Run Locally
 
 ### Add Documents
+
+The application automatically discovers all PDF files in the data/ folder and builds the retrieval index when the app starts.
 
 Place one or more scientific PDF files inside the `data/` folder:
 
