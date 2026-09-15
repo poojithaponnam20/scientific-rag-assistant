@@ -105,7 +105,9 @@ scientific-rag-assistant/
 │
 ├── app.py
 ├── rag_backend.py
-├── experiments.py
+├── experiments
+│
+└── experiments.py
 ├── requirements.txt
 ├── README.md
 │
