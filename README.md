@@ -110,8 +110,7 @@ scientific-rag-assistant/
 ├── README.md
 │
 └── data/
-    ├── Lewis_2020_RAG.pdf
-    └── Asai_2023_Self_RAG.pdf
+    ├── .gitkeep
 ```
 
 `rag_backend.py` contains the cleaned production pipeline, while `experiments.py` contains the experiments and evaluation work used during development.
