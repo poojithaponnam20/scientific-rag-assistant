@@ -49,7 +49,7 @@ Grounded Answer + Source Pages
 
 ## Retrieval Evaluation
 
-Retrieval was evaluated on a 10-question benchmark based on the original RAG paper.
+Retrieval was evaluated using a 10-question benchmark based on the original RAG paper.
 
 | Method                                   | Hit@1 | Hit@3 | Hit@5 |
 | ---------------------------------------- | ----: | ----: | ----: |
@@ -105,17 +105,20 @@ scientific-rag-assistant/
 │
 ├── app.py
 ├── rag_backend.py
-├── experiments
-│
-└── experiments.py
 ├── requirements.txt
 ├── README.md
+├── .gitignore
+│
+├── experiments/
+│   └── experiments.py
 │
 └── data/
-    ├── .gitkeep # Add your own PDFs here
+    └── .gitkeep 
 ```
 
-`rag_backend.py` contains the cleaned production pipeline, while `experiments.py` contains the experiments and evaluation work used during development.
+`rag_backend.py` contains the cleaned production pipeline, while
+`experiments/experiments.py` preserves the experiments and evaluation work
+performed during development.
 
 ## Run Locally
 
